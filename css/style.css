@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* root colors*/
+:root{
+  --background-color: #424769;
+  --dark-color: #2d3250;
+  --light-color: #ffffff;
+  --circle-color: #676fd0;
+  --title-color: #f9b17a;
+}
+
+body{
+  font-family: "Raleway", sans-serif;
+  background-color: var(--background-color);
+}
+
+header{
+  color: var(--title-color);
+  background-color: var(--dark-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+ }
+
+ .logo{
+  margin: 20px;
+  font-size: xx-large;
+ }
+
+ ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+ }
+
+ header a{
+  text-decoration: none;
+  font-size: x-large;
+  color: var(--title-color);
+  margin: 20px;
+ }
+
+.model-picture-circles img{
+  width: 80%;
+  height: 80%;
+}
+.model-picture-circles{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.text-apresentation {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.text-apresentation h1{
+  font-size: xx-large;
+}
+.text-apresentation{
+  color: var(--light-color);
+}
+.apresentation-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+#home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+  height: 100vh;
+  border-bottom: 3px solid var(--light-color);
+}
+
+ #projects{
+  height: 100vh;
+  border-bottom: 3px solid var(--light-color);
+ }
+ .projects-title-section{
+  text-align: center;
+  color: var(--title-color);
+  font-size: xx-large;
+ }
+
+.projects-container{
+  height: 100%;
+  width: 100%;
+}
+
+
+.projects-title-section{
+  margin: 5%;
+}
+.card {
+  background-color: var(--dark-color);
+  width: 270px;
+  height: 350px;
+  border-radius: 12px;
+  box-shadow: 4px 4px 12px var(--background-color);
+}
+.card img {
+  width: 100%;
+  height: 130px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.card-content a{
+  text-decoration: none;
+  padding: 10px 20px;
+  color: var(--dark-color);
+  background-color: var(--title-color);
+  border-radius: 5px;
+  font-size: small;
+  font-weight: bold;
+}
+
+.card-content a:hover{
+  background-color: var(--light-color);
+}
+
+.card div {
+  color: var(--light-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  height: 65%;
+  justify-content: space-evenly;
+}
+
+.cards-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+.card-content span{
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+}
+
+.about-title{
+  text-align: center;
+  color: var(--title-color);
+  font-size: xx-large;
+  margin: 5%;
+}
+.about-picture img{
+  width: 400px;
+  height: 400px;
+  clip-path: circle(40%);
+}
+
+.about-container{
+  margin: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.about-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  color: var(--light-color);
+  width: 50%;
+}
+.about-picture{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+#contact{
+  width: 100%;
+  height: 20vh;
+  background-color: var(--dark-color);
+  border-bottom: 3px solid var(--light-color);
+}
+.contact{
+  display: flex;
+  justify-content:left;
+  flex-direction: column;
+  height: 10vh;
+}
+.contact a{
+  text-decoration: none;
+  color: var(--light-color);
+}
+.socials{
+  height: 10vh;  
+}
+.socials p, .contact p{
+  margin: 10px;
+  color: var(--title-color);
+}
+.socials a, .contact a{
+  margin-left: 10px;
+}
+.icon-social{
+  width: 30px;
+  height: auto;
+  
+}
+.contact-container{
+  color: var(--light-color);
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  height: 100%;
+}
+footer p{
+  text-align: center;
+  color: var(--title-color);
+  padding: 10px;
+}
